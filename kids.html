@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women - FitGear</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="bg-white p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="images/LOGO.jpg" alt="Logo" class="w-30 h-16">
+            <a href="#" class="text-xl font-bold">FitGear</a>
+        </div>
+
+        <div class="hidden md:flex flex-grow justify-center space-x-10">
+            <a href="women.html" class="text-gray-700 hover:text-gray-900">Women</a>
+            <a href="men.html" class="text-gray-700 hover:text-gray-900">Men</a>
+            <a href="kids.html" class="text-gray-700 hover:text-gray-900">Kids</a>
+            <a href="accessories.html" class="text-gray-700 hover:text-gray-900">Accessories</a>
+            <a href="kit.html" class="text-gray-700 hover:text-gray-900">Kit</a>
+            <a href="outlet.html" class="text-gray-700 hover:text-gray-900">Outlet</a>
+        </div>
+
+        <div class="flex items-center space-x-4">
+            <form id="search-form" class="flex items-center">
+                <input type="text" id="search-input" placeholder="Search..." class="border rounded p-1">
+                <button type="submit" class="text-gray-700 hover:text-gray-900">
+                    
+                </button>
+            </form>            <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fas fa-shopping-bag"></i></a>
+            <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fas fa-user"></i></a>
+        </div>
+    </div>
+</nav>
+
+<!-- Products Section -->
+<div class="bg-white py-16">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-semibold text-center mb-8">Our Products</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Product 1 -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <img src="product1.png" alt="Product 1" class="mb-4 h-32 w-full object-cover rounded">
+                <h3 class="text-lg font-bold">Product Name 1</h3>
+                <p class="text-xl font-semibold mt-2">$19.99</p>
+                <p class="text-gray-600 mt-2">Brief description of product 1.</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Buy</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <img src="product2.png" alt="Product 2" class="mb-4 h-32 w-full object-cover rounded">
+                <h3 class="text-lg font-bold">Product Name 2</h3>
+                <p class="text-xl font-semibold mt-2">$29.99</p>
+                <p class="text-gray-600 mt-2">Brief description of product 2.</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Buy</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <img src="product3.png" alt="Product 3" class="mb-4 h-32 w-full object-cover rounded">
+                <h3 class="text-lg font-bold">Product Name 3</h3>
+                <p class="text-xl font-semibold mt-2">$39.99</p>
+                <p class="text-gray-600 mt-2">Brief description of product 3.</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Buy</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <img src="product4.png" alt="Product 4" class="mb-4 h-32 w-full object-cover rounded">
+                <h3 class="text-lg font-bold">Product Name 4</h3>
+                <p class="text-xl font-semibold mt-2">$49.99</p>
+                <p class="text-gray-600 mt-2">Brief description of product 4.</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Buy</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <img src="product5.png" alt="Product 5" class="mb-4 h-32 w-full object-cover rounded">
+                <h3 class="text-lg font-bold">Product Name 5</h3>
+                <p class="text-xl font-semibold mt-2">$59.99</p>
+                <p class="text-gray-600 mt-2">Brief description of product 5.</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Buy</button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <img src="product6.png" alt="Product 6" class="mb-4 h-32 w-full object-cover rounded">
+                <h3 class="text-lg font-bold">Product Name 6</h3>
+                <p class="text-xl font-semibold mt-2">$69.99</p>
+                <p class="text-gray-600 mt-2">Brief description of product 6.</p>
+                <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Buy</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-black text-white py-8">
+    <div class="flex justify-center items-center">
+        <p class="mr-4">Want emails you'll actually read, including the latest deets and exclusive deals?</p>
+        <a href="#" class="bg-white text-black px-4 py-2 rounded">SIGN UP</a>
+    </div>
+    <div class="text-center mt-4">
+        <p>© 2024 | FitGear | All Rights Reserved</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

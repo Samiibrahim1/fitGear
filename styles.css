@@ -1,0 +1,259 @@
+.separator {
+            margin: 0 10px; /* Space around the separator */
+        }
+.message {
+        display: none; /* Hide all messages by default */
+    }
+.show {
+        display: block; /* Show the current message */
+    }
+
+     /* Additional styles for the image */
+      /* Additional styles for the image */
+#pop-out-image {
+        width: 400px; /* Adjust width as needed */
+        height: auto; /* Maintain aspect ratio */
+        transition: transform 0.5s ease; /* Smooth transition */
+    }
+    /* Styles for the revealing images */
+.transition-transform {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.kit-section {
+    background-image: url('images/kit.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    height: 400px; /* Set a height for the section */
+    position: relative; /* Allow positioning of overlay */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    color: white; /* White text color */
+    text-align: center; /* Center text */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 1rem; /* Padding around text */
+}
+
+.title {
+    font-size: 3rem; /* Font size for the title */
+    font-weight: bold; /* Bold font style */
+    margin: 0; /* Remove default margin */
+}
+
+.shop-button {
+    margin-top: 1rem; /* Margin above the button */
+    background-color: white; /* White background for button */
+    color: black; /* Black text color */
+    padding: 0.5rem 1.5rem; /* Padding for the button */
+    border-radius: 0.25rem; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.shop-button:hover {
+    background-color: #e2e8f0; /* Light gray on hover */
+}
+footer {
+    width: 100%; /* Ensure the footer takes the full width */
+}
+
+.bg-black {
+    background-color: black; /* Black background */
+    color: white; /* White text color */
+    padding: 2rem 0; /* Vertical padding */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.signup-button {
+    background-color: white; /* White background for button */
+    color: black; /* Black text color */
+    padding: 0.5rem 1.5rem; /* Padding for the button */
+    border-radius: 0.25rem; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.signup-button:hover {
+    background-color: #e2e8f0; /* Light gray on hover */
+}
+
+.mr-4 {
+    margin-right: 1rem; /* Margin to the right of the text */
+}
+.footer {
+    background-color: #f7f7f7; /* Light grey background */
+    padding: 2rem; /* Padding around the content */
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Center the footer content */
+    text-align: left; /* Align text to the left */
+}
+
+.headline {
+    font-size: 1.5rem; /* Smaller font size for the headline */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 1rem; /* Space below the headline */
+}
+
+.description {
+    font-size: 0.9rem; /* Smaller font size for the description */
+    margin-bottom: 2rem; /* Space below the description */
+}
+
+.footer-links {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Space out sections */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer-section {
+    margin-right: 2rem; /* Space between sections */
+}
+
+.footer-section h3 {
+    font-size: 1.2rem; /* Smaller font size for section headers */
+    margin-bottom: 0.5rem; /* Space below section headers */
+}
+
+ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+li {
+    margin-bottom: 0.5rem; /* Space between list items */
+    font-size: 0.9rem; /* Smaller font size for list items */
+}
+
+a {
+    color: grey; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.social-icons {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: flex-end; /* Align icons to the right */
+    padding: 1rem; /* Padding around the icons */
+}
+
+.icon {
+    margin-left: 1rem; /* Space between icons */
+    color: grey; /* Default color for icons */
+    font-size: 1.5rem; /* Size of the icons */
+    transition: transform 0.3s; /* Transition for hover effect */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Scale up icon on hover */
+}
+.slim-footer {
+    background-color: #f7f7f7; /* Light grey background */
+    padding: 1rem; /* Padding around the content */
+    text-align: center; /* Center the text */
+    font-size: 0.8rem; /* Smaller font size */
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.country {
+    margin: 0; /* Remove margin */
+}
+
+.footer-links {
+    margin-top: 0.5rem; /* Space above the links */
+}
+
+.footer-links a {
+    margin: 0 0.5rem; /* Space between links */
+    color: grey; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.product-section {
+    background-image: url('images/sports-background.jpg'); /* Replace with your sports-themed background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    padding: 2rem; /* Padding around the section */
+    text-align: center; /* Center text */
+}
+
+.section-title {
+    font-size: 2rem; /* Title font size */
+    color: white; /* Title color */
+    margin-bottom: 1.5rem; /* Space below the title */
+}
+
+.product-container {
+    display: grid; /* Use grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid with 3 items per row */
+    gap: 1rem; /* Space between products */
+}
+
+.product-box {
+    background: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1rem; /* Padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: transform 0.3s; /* Transition for hover effect */
+}
+
+.product-box:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.product-image {
+    width: 100%; /* Full width image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for image */
+}
+
+.product-title {
+    font-size: 1.2rem; /* Title font size */
+    margin: 0.5rem 0; /* Space around title */
+}
+
+.product-description {
+    font-size: 0.9rem; /* Description font size */
+    margin: 0.5rem 0; /* Space around description */
+}
+
+.product-price {
+    font-size: 1rem; /* Price font size */
+    color: #007bff; /* Price color */
+    font-weight: bold; /* Bold price */
+}
+
+.bg-image {
+    background-image: url('images/sports-background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    height: 400px; /* Set a height for the div */
+    display: flex; /* Center content vertically */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Align items horizontally */
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
